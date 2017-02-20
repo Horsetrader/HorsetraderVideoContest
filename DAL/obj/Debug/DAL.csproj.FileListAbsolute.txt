@@ -1,0 +1,5 @@
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderVideoContest\DAL\bin\Debug\DAL.dll
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderVideoContest\DAL\bin\Debug\DAL.pdb
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderVideoContest\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderVideoContest\DAL\obj\Debug\DAL.dll
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderVideoContest\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorsetraderVideoContest", "HorsetraderVideoContest\HorsetraderVideoContest.csproj", "{A261F134-005D-4789-958A-42BBE515D62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5CEE7C69-E718-4A5B-831A-B90D2D5963D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A261F134-005D-4789-958A-42BBE515D62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A261F134-005D-4789-958A-42BBE515D62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A261F134-005D-4789-958A-42BBE515D62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A261F134-005D-4789-958A-42BBE515D62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEE7C69-E718-4A5B-831A-B90D2D5963D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEE7C69-E718-4A5B-831A-B90D2D5963D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEE7C69-E718-4A5B-831A-B90D2D5963D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEE7C69-E718-4A5B-831A-B90D2D5963D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
