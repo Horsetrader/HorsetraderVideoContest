@@ -1,0 +1,19 @@
+@media print 
+{
+    #topnav, #action-items, #footer, .form-text, .button, #btnPrintCoupon
+    {
+        display:none;
+    }
+    
+    .coupon 
+    {
+        width: 575px;
+        margin: 0 auto;
+    }
+    
+    body 
+    {
+        margin-top: 20px;
+    }
+        
+}

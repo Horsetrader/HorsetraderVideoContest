@@ -1,0 +1,496 @@
+/******************
+Bootstrap
+******************/
+
+body 
+{
+    padding-top: 40px;
+}
+
+.container, .span12
+{
+    max-width: 940px;
+}
+
+.input-medium
+{
+    width: 125px;
+}
+
+/******************
+Navigation Bar
+******************/
+
+div#topnav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #444446;
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #F14950;
+    color: #FFFFFF;
+    z-index:9998;
+}
+
+div#topnavbox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+div#topnavleft
+{
+    width: 593px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+
+div#topnavsocial
+{
+    width: 100px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+
+div#topnavsocial a
+{
+    margin-right: 2px;
+    margin-left: 0px;
+}	
+div#topnavright
+{
+    width: 235px;
+    text-align: right;
+    float: right;
+}
+
+div#topnav input[type=text]
+{
+    width: 80px;
+    margin-bottom: 2px;
+    height: 12px;
+}
+
+div#topnav a
+{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div#topnavleft a
+{
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+/******************
+Banner Ads
+******************/
+
+div#action-items
+{
+    float: left;
+    width: 940px;
+}
+
+div#action-items-left
+{
+    float: left;
+    width: 570px;
+    height: 70px;
+    background-color: #e6e6e6;
+}
+
+div#action-items-right
+{
+    float: right;
+    width: 200px;
+    height: 63px;
+    padding-top: 5px;
+    margin-left: 5px; /*background-color: #FFF9C9; border: 1px solid #FFE69B;*/
+    border: 1px dotted #d6d6d6;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+div#action-items-right.placeOrder
+{
+    border:none;
+    text-align:center;
+    margin-top:-7px;
+    width:190px;
+}
+
+div#homeordertitle
+{
+    float: left;
+    text-align: center;
+}
+
+div#homeordertitleleft2
+{
+    float: left;
+    padding-left: 20px;
+    text-align: right;
+}
+
+div#homeordertitleright2
+{
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    color: #80bd3d;
+    font-weight: bold;
+}
+
+/******************
+Footer
+******************/
+
+div#footer 
+{
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+/******************
+Sexy Buttons
+******************/
+
+.sexybutton
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+	background: none;
+	border: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	
+	/* Fix extra width padding in IE */
+	_width: 0;
+	overflow: visible;
+}
+
+.sexybutton.sexysimple
+{ 
+	position: relative; 
+	padding: 5px 10px 5px;
+	font: inherit;
+	font-size: 13px;
+	font-style: normal; 
+	font-weight: bold; 
+	color: #fff;
+	line-height: 1; 
+	background-image: url(http://arena.horsetrader.com/earena/norcotest/sexybuttons/images/skins/simple/awesome-overlay-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	background-color: #333;
+	
+	/* Special effects */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	
+	/* IE only stuff */
+	border-bottom: 1px solid transparent\9;
+	_background-image: none;
+	
+	/* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	display: -moz-inline-stack;
+	display: inline-block;
+	/*vertical-align: middle;*/
+	*display: inline !important;
+	position: relative;
+	
+	/* Force hasLayout in IE */
+	zoom: 1;
+	
+	/* Disable text selection (Firefox only)*/
+	-moz-user-select: none;
+}
+
+.sexybutton.sexysimple::selection
+{
+	background: transparent;
+}
+
+.sexybutton span.search
+{
+    background-image: url(../img/magnifier.png);
+}
+
+.sexybutton span.map
+{
+    background-image: url(../img/map.png);
+}
+
+.sexybutton.sexysimple span
+{
+    height: auto;
+    padding-left: 24px;
+    padding-right: 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.sexybutton.sexysimple:hover
+{
+	background-position: 0 -50px; 
+	color: #fff;
+}
+
+.sexybutton.sexysimple:active { 
+	background-position: 0 100%; 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
+	/* Unfortunately, Safari doesn't support inset yet */
+	-webkit-box-shadow: none;
+	
+	/* IE only stuff */
+	border-bottom: 0\9;
+	border-top: 1px solid #666\9;
+}
+
+.sexybutton.sexysimple.sexysmall
+{
+    padding: 4px 7px 5px; font-size: 10px; 
+}
+
+.sexybutton.sexysimple.sexysmall:active
+{
+    padding: 5px 7px 4px;
+}
+
+.sexybutton.sexysimple.sexyred		{ background-color: #a90118; }
+.sexybutton.sexysimple.sexygreen		{ background-color: #59a901; }
+.sexybutton.sexysimple.sexyblue {
+background-color: #015ea9;
+}
+
+/*Submit Video*/
+h2 span
+{
+    color: Gray;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.input-form
+{
+    max-width: 515px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+#login
+{
+    padding: 19px 29px 10px 29px;
+}
+
+.top-entries
+{
+    float: left;
+}
+
+.top-entries-place
+{
+    float:left;
+    margin-top: -10px;
+    margin-left: 7px;
+}
+
+.entry-title
+{   
+    line-height:0px;
+    float:left;
+}
+.entry-description
+{
+    color: Gray;
+}
+
+.generic-container
+{
+    padding: 15px 19px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.entry
+{
+    padding: 15px 2px;
+    margin-top: 10px;
+    min-height: 450px;
+}
+
+.entry-info p, .entry h4
+{
+    padding: 0 5px 0 5px;
+}
+
+#disclaimer
+{
+    margin: 0 auto;
+    max-width: 515px;
+    text-align: center;
+}
+
+.form-text
+{
+    margin:0 auto;
+    max-width: 705px;
+    text-align: center;
+}
+
+.form-text p
+{
+    max-width: 650px;
+    margin: 0 auto 10px;
+    color: Gray;
+}
+
+.form-text p > span
+{
+    font-weight: bold;
+    color: Black;
+}
+
+.float-right
+{
+    float:right;
+}
+
+#errorMessage, #infoMessage
+{
+    max-width: 515px;
+    margin: 0 auto 20px;
+    display: none;
+}
+
+#infoMessage a
+{
+    font-weight: bold;
+}
+
+#secondaryBanner
+{
+    max-width: 575px;
+    margin: 0 auto 20px;
+}
+
+.coupon
+{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 575px;
+}
+
+.print-coupon
+{
+    width: 151px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.video { position: relative; }
+
+.video div
+{
+   position: absolute;
+   display: block;
+   background: url(../img/play-button.png);
+   height: 58px;
+   width: 77px;
+   
+}
+
+.video div.large-player
+{
+    left: 200px;
+    top: 146px;
+}
+
+.video img.large-thumbnail
+{
+    width: 460px;
+    height: 345px;
+}
+
+.video div.medium-player
+{
+    left: 106px;
+    top: 85px;
+}
+
+.video img.medium-thumbnail
+{
+    width: 294px;
+    height: 221px;
+}
+
+.video div.small-player
+{
+    left: 66px;
+    top: 53px;
+}
+
+.video img.small-thumbnail
+{
+    width: 208px;
+    height: 157px;
+}
+
+#countdown
+{
+    border: 0;
+    background: none;
+    color: #999;
+    font-weight: bold;
+}
+
+.selected-entry
+{
+    border: 1px solid gold;
+}
+
+.bottom-text
+{
+    margin-top: 30px;
+}
+
+.space-bottom
+{
+    padding-bottom: 25px;
+}

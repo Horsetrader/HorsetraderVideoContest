@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A261F134-005D-4789-958A-42BBE515D62F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HorsetraderVideoContest</RootNamespace>
+    <AssemblyName>HorsetraderVideoContest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>U:\Horsetrader Source\HorsetraderVideoContest\Backup\HorsetraderVideoContest\</UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap-responsive.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\jquery.countdown.css" />
+    <Content Include="assets\css\print.css" />
+    <Content Include="assets\css\page.css" />
+    <Content Include="assets\img\1.jpg" />
+    <Content Include="assets\img\2.jpg" />
+    <Content Include="assets\img\3.jpg" />
+    <Content Include="assets\img\4.jpg" />
+    <Content Include="assets\img\5.jpg" />
+    <Content Include="assets\img\checked.png" />
+    <Content Include="assets\img\frame-a.jpg" />
+    <Content Include="assets\img\frame-b.jpg" />
+    <Content Include="assets\img\frame-c.jpg" />
+    <Content Include="assets\img\funny-horse-videos-voucher.jpg" />
+    <Content Include="assets\img\glyphicons-halflings-white.png" />
+    <Content Include="assets\img\glyphicons-halflings.png" />
+    <Content Include="assets\img\LaughingHorses.jpg" />
+    <Content Include="assets\img\magnifier.png" />
+    <Content Include="assets\img\map.png" />
+    <Content Include="assets\img\play-button.png" />
+    <Content Include="assets\img\SearchButton_bg.png" />
+    <Content Include="assets\img\share_icon.gif" />
+    <Content Include="assets\img\TheNewHorsetrader.png" />
+    <Content Include="assets\img\unchecked.png" />
+    <Content Include="assets\img\youtube-logo.jpg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery-1.10.1.min.js" />
+    <Content Include="assets\js\jquery.countdown.js" />
+    <Content Include="assets\js\page.js" />
+    <Content Include="assets\js\jquery.limit-1.2.source.js" />
+    <Content Include="assets\js\jqBootstrapValidation.js" />
+    <Content Include="change-vote.aspx" />
+    <Content Include="email-unsubscribe.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="judge-login.aspx" />
+    <Content Include="judge-sign-up.aspx" />
+    <Content Include="list-entries.aspx" />
+    <Content Include="submit-entry.aspx" />
+    <Content Include="thank-you.aspx" />
+    <Content Include="user_controls\Analytics.ascx" />
+    <Content Include="user_controls\BannerAds.ascx" />
+    <Content Include="user_controls\Footer.ascx" />
+    <Content Include="user_controls\Header.ascx" />
+    <Content Include="user_controls\Search.ascx" />
+    <Content Include="view-comments.aspx" />
+    <Content Include="view-entries.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="change-vote.aspx.cs">
+      <DependentUpon>change-vote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="change-vote.aspx.designer.cs">
+      <DependentUpon>change-vote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="email-unsubscribe.aspx.cs">
+      <DependentUpon>email-unsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="email-unsubscribe.aspx.designer.cs">
+      <DependentUpon>email-unsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="judge-login.aspx.cs">
+      <DependentUpon>judge-login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="judge-login.aspx.designer.cs">
+      <DependentUpon>judge-login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="judge-sign-up.aspx.cs">
+      <DependentUpon>judge-sign-up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="judge-sign-up.aspx.designer.cs">
+      <DependentUpon>judge-sign-up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="list-entries.aspx.cs">
+      <DependentUpon>list-entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="list-entries.aspx.designer.cs">
+      <DependentUpon>list-entries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="submit-entry.aspx.cs">
+      <DependentUpon>submit-entry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="submit-entry.aspx.designer.cs">
+      <DependentUpon>submit-entry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thank-you.aspx.cs">
+      <DependentUpon>thank-you.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thank-you.aspx.designer.cs">
+      <DependentUpon>thank-you.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_controls\Analytics.ascx.cs">
+      <DependentUpon>Analytics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_controls\Analytics.ascx.designer.cs">
+      <DependentUpon>Analytics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="user_controls\BannerAds.ascx.cs">
+      <DependentUpon>BannerAds.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_controls\BannerAds.ascx.designer.cs">
+      <DependentUpon>BannerAds.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="user_controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_controls\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="user_controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_controls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="user_controls\Search.ascx.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_controls\Search.ascx.designer.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="view-comments.aspx.cs">
+      <DependentUpon>view-comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view-comments.aspx.designer.cs">
+      <DependentUpon>view-comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view-entries.aspx.cs">
+      <DependentUpon>view-entries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view-entries.aspx.designer.cs">
+      <DependentUpon>view-entries.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{CC28A3C3-61C1-4CD0-B0B1-5D85ACE83F78}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\files\funny-horse-videos-voucher.pdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49175</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
